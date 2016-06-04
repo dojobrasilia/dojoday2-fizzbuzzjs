@@ -18,3 +18,4 @@ Podemos ter uma série de problemas p/ resolver
 http://c2.com/cgi/wiki?FizzBuzzTest
 https://github.com/airbnb/javascript
 http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent/dp/013476904X
+http://es6katas.org/
