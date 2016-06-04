@@ -19,17 +19,19 @@ describe('fizzBuzz', () => {
 });
 
 function fizzBuzz(n) {
-  var word = '';
+  var result = '';
 
   if (n % 3 == 0){
-    word = 'Fizz';
-  }
-  if (n % 5 == 0){
-    word = word+'Buzz';
-  }
-  if (word == ''){
-    word = n;
+    result = 'Fizz';
   }
 
-  return word;
+  if (n % 5 == 0){
+    result = result + 'Buzz';
+  }
+  
+  if (result == ''){
+    result = n;
+  }
+
+  return result;
 }
